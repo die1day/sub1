@@ -7,4 +7,8 @@ Created on Sat Jun  4 07:18:30 2022
 import numpy as np
 
 def cal(x, y):
-    return np.log(x) * np.exp(y) * 999
+    if x>100:
+        return np.log(x) * np.exp(y) * 999
+    else:
+        return 0
+    
