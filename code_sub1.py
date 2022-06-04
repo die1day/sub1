@@ -7,8 +7,8 @@ Created on Sat Jun  4 07:18:30 2022
 import numpy as np
 
 def cal(x, y):
-    if x != 0:
-        return np.log(x) * np.exp(y) * 999
+    if x != 0 and y != 0:
+        return np.log(x) * np.exp(y) * 999 - np.log(y)
     else:
         return -333
     
