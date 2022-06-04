@@ -10,5 +10,5 @@ def cal(x, y):
     if x != 0:
         return np.log(x) * np.exp(y) * 999
     else:
-        return 0
+        return -333
     
