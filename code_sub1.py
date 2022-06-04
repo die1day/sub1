@@ -7,4 +7,4 @@ Created on Sat Jun  4 07:18:30 2022
 import numpy as np
 
 def cal(x, y):
-    return np.log(x) * np.exp(y)
+    return np.log(x) * np.exp(y) - np.log(y)
