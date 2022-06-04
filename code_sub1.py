@@ -8,7 +8,7 @@ import numpy as np
 
 def cal(x, y):
     if x != 0:
-        return np.log(x) * np.exp(y)
+        return np.log(x) * np.exp(y) * 999
     else:
         return 0
     
